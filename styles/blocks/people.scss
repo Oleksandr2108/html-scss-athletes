@@ -1,0 +1,12 @@
+.people {
+  display: grid;
+  grid-template-columns: repeat(2, $card-width);
+  gap: 40px 30px;
+  justify-content: center;
+}
+
+@media (min-width : 1000px) {
+  .people {
+    grid-template-columns: repeat(4, $card-width);
+  }
+}
